@@ -27,7 +27,7 @@ int main(void)
 						putchar(c);
 						putchar(d);
 
-					if (a + b + c + d == 252 && a == 53)
+					if (a + b + c + d == 252 && a == 63)
 					{
 					break;
 					}
