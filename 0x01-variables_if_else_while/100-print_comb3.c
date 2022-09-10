@@ -3,30 +3,37 @@
 #include <string.h>
 
 /**
- * main - possible different combinations of two digits
+ * main -  possible different combinations of two digits
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n, o;
+	int a = '0';
+	int b = '0';
 
-	for (n = '0'; n <= '8'; n++)
+	while (a <= '9')
 	{
-		for (o = '1'; o <= 9; o++)
+		while (b <= '9')
 		{
-			if (n < o)
+			if (!(a > b || a == b))
 			{
-				putchar(n + '0');
-				putchar(o + '0');
-				if (n != 8 || o != 9)
+				putchar(a);
+				putchar(b);
+				if (a == '8' && b == '9')
+				{
+					putchar('\n');
+				}
+				else
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
+			b++;
 		}
+		b = '0';
+		a++;
 	}
-	putchar('\n');
 	return (0);
 }
