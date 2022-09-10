@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * main - Lowercase alphabet in reverse
@@ -7,13 +9,15 @@
  */
 int main(void)
 {
-	char c;
+	char y;
 
-	for (c = 'z'; c <= 'a'; c--)
+	y = 'z';
+	while (y >= 'a')
 	{
-		putchar(c);
+		putchar(y);
+		y--;
 	}
-
 	putchar('\n');
+
 	return (0);
 }
