@@ -11,13 +11,13 @@ int main(void)
 {
 	int a, b, c, d;
 
-	for (a = 34; a <= 63; a++)
+	for (a = 48; a <= 57; a++)
 	{
-		for (b = 34; b <= 63; b++)
+		for (b = 48; b <= 57; b++)
 		{
-			for (c = 34; c <= 63; c++)
+			for (c = 48; c <= 57; c++)
 			{
-				for (d = 34; d <= 63; d++)
+				for (d = 48; d <= 57; d++)
 				{
 					if (((c + d) > (a + b) && c >= a) || a < c)
 					{
@@ -27,7 +27,7 @@ int main(void)
 						putchar(c);
 						putchar(d);
 
-					if (a + b + c + d == 252 && a == 63)
+					if (a + b + c + d == 227 && a == 57)
 					{
 					break;
 					}
