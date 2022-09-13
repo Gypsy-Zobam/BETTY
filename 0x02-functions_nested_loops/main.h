@@ -1,1 +1,1 @@
-#define _putchar('\n')
+#define _putchar
