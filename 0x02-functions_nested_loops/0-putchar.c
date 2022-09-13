@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - Print _putchar
+ * main - print _putchar
  *
- * Return: Always 0 (Success)
+ * Description: It prints the word, followed by a new line.
+ * Return: Always 0
  */
 int main(void)
 {
