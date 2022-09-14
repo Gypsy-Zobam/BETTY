@@ -8,12 +8,9 @@
  */
 int main(void)
 {
-	char ch = "_putchar";
+	char *sh = "_putchar";
 
-	for (ch = 0; ch < 8; ch++)
-	{
-		ch++;
-	}
+	for (*sh = 0; *sh < 8; sh++)
 
 	return (0);
 }
