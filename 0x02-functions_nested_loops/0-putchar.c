@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char *sh = "main";
+	int *sh = "main";
 
 	while (*sh)
 	{
