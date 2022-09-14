@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	char *sh = "_putchar";
+	char ch = "_putchar";
 
-	while (*sh)
+	for (ch = 0; ch < 8; ch++)
 	{
 		sh++;
 	}
