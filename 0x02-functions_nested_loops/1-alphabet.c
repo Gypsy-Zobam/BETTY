@@ -3,13 +3,13 @@
 /**
  * main - prints the alphabet in lowercase
  *
+ * Return: void
  */
-void print_alphabet
+void print_alphabet(void)
 
 {
-	char ch;
+	char ch = 'a';
 
-	ch = 'a';
 	while (ch <= 'z')
 	{
 		_putchar(ch);
