@@ -8,9 +8,13 @@
  */
 int main(void)
 {
-	char *sh = "_putchar";
+	char *sh = "main";
 
 	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
 	
 	return (0);
 }
