@@ -7,13 +7,13 @@
  * Return: void
  */
 void print_alphabet(void)
-
 {
-	char al 
+	char ch = 'a'; 
        
-	for (al = 'a'; al <= 'z'; al++)
+	which (ch <= 'z')
 	{
-		_putchar(al);
+		_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
 }
