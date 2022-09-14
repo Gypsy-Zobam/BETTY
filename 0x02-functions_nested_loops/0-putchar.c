@@ -10,7 +10,7 @@ int main(void)
 {
 	char *sh = "_putchar";
 
-	_putchar(*sh);
+	while (*sh)
 	
 	return (0);
 }
