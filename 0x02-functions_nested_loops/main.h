@@ -1,1 +1,1 @@
-#define _putchar
+#include _putchar
