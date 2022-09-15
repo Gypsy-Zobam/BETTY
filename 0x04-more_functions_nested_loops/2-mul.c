@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int mul - function of multiples two integers
+ * mul - function of multiples two integers
  * @a1: first integer
  * @b2: second integer
  * Return: sum
