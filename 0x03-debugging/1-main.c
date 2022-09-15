@@ -15,11 +15,10 @@ int main(void)
 
 	/*while (1 < 10)*/
 	/*{*/
-		/*putchar(1);*/
+	/*	putchar(1);*/
 	/*}*/
 
 	printf("infinite loop avoided! \\o/\n");
 
 	return (0);
 }
-
