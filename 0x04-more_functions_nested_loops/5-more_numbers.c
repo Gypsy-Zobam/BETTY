@@ -15,9 +15,9 @@ void more_numbers(void)
 	while (j < 10)
 	{
 		k = 0;
-		while (k < 15)
+		while (k < 14)
 		{
-			if (k >= 15)
+			if (k >= 14)
 				_putchar('0' + k / 10);
 			_putchar('0' + k % 10);
 			k++;
