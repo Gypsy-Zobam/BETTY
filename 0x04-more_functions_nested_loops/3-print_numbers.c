@@ -9,18 +9,12 @@
 void print_numbers(void)
 {
 	char ch;
-	int n;
 
-	n = 0;
-
-	while (n < 9)
+	ch = '0';
+	while (ch <= '9')
 	{
-		ch = '0';
-		while (ch <= '9')
-		{
-			_putchar(ch);
-			ch++;
-		}
-		_putchar('\n');
+		_putchar(ch);
+		ch++;
 	}
+	_putchar('\n');
 }
