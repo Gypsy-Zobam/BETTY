@@ -1,3 +1,4 @@
+#ifndef _main_h_
 #define _main_h_
 
 int _putchar(char c);
@@ -13,3 +14,5 @@ void times_table(void);
 int add(int a1, int a2);
 void print_to_98(int n);
 void print_times_table(int n);
+
+#endif
