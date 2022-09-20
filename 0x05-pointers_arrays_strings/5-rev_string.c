@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**rev_string - reverses a string
+/**
+ * rev_string - reverses a string
  * @s: pointer
  * Return: Always 0
  */
@@ -20,7 +21,7 @@ void rev_string(char *s)
 	while (z < y)
 	{
 		temp = s[z];
-		s[z] = s[y]
+		s[z] = s[y];
 		s[y] = temp;
 		z++;
 		y--;
