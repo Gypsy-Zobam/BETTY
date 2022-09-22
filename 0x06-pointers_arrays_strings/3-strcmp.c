@@ -9,15 +9,15 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int x;
-	int I;
+	int i;
+	int R;
 
-	x = 0;
+	i = 0;
 
-	while (s1[x] == s2[x] && (s1[x] != '\0' || s2[x] != '\0'))
+	while (s1[i] == s2[i] && (s1[i] != '\0' || s2[i] != '\0'))
 	{
-		x++;
+		i++;
 	}
-	I = s1[x] - s2[x];
-	return (I);
+	R = s1[i] - s2[i];
+	return (R);
 }
