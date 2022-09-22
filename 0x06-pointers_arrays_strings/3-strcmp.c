@@ -4,17 +4,20 @@
  * _strcmp - compareing two string.
  * @s1 : first compared pointer.
  * @s2 : second compared pointer.
- * Return : *dest
+ * Return : 0 if s1 and s2 are equals,
+ * another number if not.
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i;
-	
-	for (i = 0; s1[i] != '\0' && s2[i] != '\0'; i++)
+	int i = 0, op = 0;
+
+	while (op == 0)
 	{
-		if (s1[i] != s2[i])
-			return (s1[i] - s2[i]);
+		if ((*(s1 + i) == '\0') && (*(s2 + i) == '\0'))
+			break;
+		op = *(s1 + i) - *(s2 + i);
+		i++;
 	}
-	return (0);
+	return (op);
 }
