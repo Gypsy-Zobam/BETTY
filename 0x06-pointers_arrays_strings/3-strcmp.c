@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - compareing two string.
- * @s1 : first compared string.
- * @s2 : second compared string.
+ * @s1 : first compared pointer.
+ * @s2 : second compared pointer.
  * Return : *dest
  */
 
