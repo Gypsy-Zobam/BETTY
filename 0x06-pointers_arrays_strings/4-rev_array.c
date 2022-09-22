@@ -2,8 +2,8 @@
 
 /**
  * reverse_array - reverse
- * @a : pointer to int 
- * @n : pointer to int 
+ * @a : pointer to int
+ * @n : pointer to int
  * Return: no
  */
 
