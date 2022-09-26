@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * char *_memcpy -copy momory area.
+ * *_memcpy -copy momory area.
  * @dest: memory area copied to
  * @src: memory area copied to
  * @n: bytes
