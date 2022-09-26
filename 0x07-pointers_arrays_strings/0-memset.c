@@ -2,10 +2,11 @@
 
 /**
  * *_memset - fill memory with a constant byte.
- * @s : pointed destination.
- * @b : constant byte.
- * @n : byte.
- * Return : to destination s.
+ * @s: pointed destination.
+ * @b: constant byte.
+ * @n: byte.
+ *
+ * Return: pointer return to memory area s.
  */
 
 char *_memset(char *s, char b, unsigned int n)
