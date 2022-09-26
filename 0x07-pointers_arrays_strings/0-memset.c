@@ -5,7 +5,7 @@
  * @s : pointed destination.
  * @b : constant byte.
  * @n : byte.
- * Return : Always return 0
+ * Return : to destination s.
  */
 
 char *_memset(char *s, char b, unsigned int n)
