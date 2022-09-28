@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * power_operation - returns the natural square root of a number.
+ * square - returns the natural square root of a number.
  * @n: int to square root
  * @y: square root
  * Return: int
