@@ -1,22 +1,19 @@
-#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-/**
-* main - print product of argument numbers
-* @argc: argument counter
-* @argv: numbers to multiply
-* Return: 0 on success, 1 if two arguments not given
-*/
+#include "main.h"
 
+/**
+* main - print each argument passed to program on a line
+* @argc: argument counter
+* @argv: pointer to array of arguments
+* Return: 0 on success
+*/
 int main(int argc, char *argv[])
 {
-	if (argc != 3)
+	int i;
 
-	{
-		printf("Error\n");
-	return (1);
-	}
+	for (i = 0; i < argc; i++)
 
-	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	printf("%s\n", argv[i]);
+
 	return (0);
 }
