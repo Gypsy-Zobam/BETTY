@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 
-/** 
+/**
  * malloc_checked - allocating memory using malloc.
  * @b: unsigned int
  *
