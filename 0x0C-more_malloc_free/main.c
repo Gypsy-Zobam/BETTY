@@ -15,8 +15,4 @@ int main(void)
 	void *_calloc(unsigned int nmemb, unsigned int size);
 	int *array_range(int min, int max);
 	void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
-	void _puts(char *str);
-	int _atoi(const char *s);
-	void print_int(unsigned long int n);
-	return (0);
 }
